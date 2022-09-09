@@ -1,0 +1,17 @@
+Thumbs.db
+.DS_Store
+.dist
+.tmp
+.sass-cache
+
+# Logs
+logs
+*.log
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/
+
+# Temporary lock file while building
+/.hugo_build.lock
