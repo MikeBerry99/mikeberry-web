@@ -25,7 +25,7 @@ tools_images:
 
 ### Podcast - Evolution Exchange Australia 
 
-Michael Zaporozhets: Engineering Manager @ Electronic Arts (EA)
+Michael Zaporozhets: Engineering Manager @ Electronic Arts
 
 Kruti Patel: Director @ Slalom Build
 
