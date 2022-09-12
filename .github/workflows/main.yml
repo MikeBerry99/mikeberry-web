@@ -8,16 +8,27 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    # Fetch Hugo to Firebase docker image
-    - uses: MikeBerry99/hugoextended-on-fire@master
-      env:
-        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+    # Updates action to build Hugo with extended
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.91.2'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      # Fetch Hugo to Firebase docker image
+      - name: Deploy
+      - uses: MikeBerry99/hugoextended-on-fire@master
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
