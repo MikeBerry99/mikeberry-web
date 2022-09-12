@@ -29,6 +29,6 @@ jobs:
 
       # Fetch Hugo to Firebase docker image
       - name: Deploy
-      - uses: MikeBerry99/hugoextended-on-fire@master
+        uses: MikeBerry99/hugoextended-on-fire@master
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
