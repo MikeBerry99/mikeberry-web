@@ -11,6 +11,7 @@ logs
 ### Hugo ###
 # Generated files by hugo
 /resources/
+/public/
 
 # Temporary lock file while building
 /.hugo_build.lock
