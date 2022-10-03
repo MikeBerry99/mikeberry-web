@@ -2,73 +2,75 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mikeberry.dev/showcase/media-1/</loc>
+    <loc>/showcase/media-1/</loc>
     <lastmod>2022-07-01T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/showcase/media-0/</loc>
+    <loc>/showcase/media-0/</loc>
     <lastmod>2022-03-24T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/showcase/conference-2/</loc>
+    <loc>/showcase/conference-2/</loc>
     <lastmod>2019-04-12T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/showcase/award-0/</loc>
+    <loc>/showcase/award-0/</loc>
     <lastmod>2018-11-21T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/showcase/conference-0/</loc>
+    <loc>/showcase/conference-0/</loc>
     <lastmod>2018-08-27T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/</loc>
+    <loc>/</loc>
     <lastmod>2022-07-01T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/showcase/</loc>
+    <loc>/showcase/</loc>
     <lastmod>2022-07-01T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/tags/agile/</loc>
+    <loc>/tags/agile/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/categories/agile/</loc>
+    <loc>/categories/agile/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/posts/post-0/</loc>
+    <loc>/posts/post-0/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/tags/devops/</loc>
+    <loc>/tags/devops/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/tags/australia/</loc>
+    <loc>/tags/australia/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/tags/fintech/</loc>
+    <loc>/tags/fintech/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/tags/regtech/</loc>
+    <loc>/tags/regtech/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/categories/regtech/</loc>
+    <loc>/categories/regtech/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/posts/post-1/</loc>
+    <loc>/posts/post-1/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mikeberry.dev/author/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>https://mikeberry.dev/homepage/classic/</loc>
+    <loc>/author/</loc>
   </url><url>
-    <loc>https://mikeberry.dev/homepage/creative/</loc>
+    <loc>/homepage/classic/</loc>
   </url><url>
-    <loc>https://mikeberry.dev/guidelines/</loc>
+    <loc>/homepage/creative/</loc>
   </url><url>
-    <loc>https://mikeberry.dev/homepage/</loc>
+    <loc>/guidelines/</loc>
   </url><url>
-    <loc>https://mikeberry.dev/author/mike-berry/</loc>
+    <loc>/homepage/</loc>
+  </url><url>
+    <loc>/author/mike-berry/</loc>
   </url>
 </urlset>

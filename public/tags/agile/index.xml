@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agile on Mike Berry | Fintech Adventures</title>
-    <link>https://mikeberry.dev/tags/agile/</link>
+    <link>/tags/agile/</link>
     <description>Recent content in Agile on Mike Berry | Fintech Adventures</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mikeberry.dev/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bruce Lee. Lessons in Agile</title>
-      <link>https://mikeberry.dev/posts/post-0/</link>
+      <link>/posts/post-0/</link>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/posts/post-0/</guid>
+      <guid>/posts/post-0/</guid>
       <description>You have been asked to start a new team that will be developing software.</description>
     </item>
     

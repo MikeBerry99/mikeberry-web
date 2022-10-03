@@ -2,107 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mike Berry | Fintech Adventures</title>
-    <link>https://mikeberry.dev/</link>
+    <link>/</link>
     <description>Recent content on Mike Berry | Fintech Adventures</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jul 2022 05:00:00 +0000</lastBuildDate><atom:link href="https://mikeberry.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jul 2022 05:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Podcast - Evolution Exchange</title>
-      <link>https://mikeberry.dev/showcase/media-1/</link>
+      <link>/showcase/media-1/</link>
       <pubDate>Fri, 01 Jul 2022 05:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/showcase/media-1/</guid>
-      <description>Creating High Performance Teams Podcast - Evolution Exchange Australia Michael Zaporozhets: Engineering Manager @ Electronic Arts (EA)</description>
+      <guid>/showcase/media-1/</guid>
+      <description>Creating High Performance Teams Podcast - Evolution Exchange Australia Michael Zaporozhets: Engineering Manager @ Electronic Arts</description>
     </item>
     
     <item>
       <title>ANZ Plus banking platform live</title>
-      <link>https://mikeberry.dev/showcase/media-0/</link>
+      <link>/showcase/media-0/</link>
       <pubDate>Thu, 24 Mar 2022 05:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/showcase/media-0/</guid>
+      <guid>/showcase/media-0/</guid>
       <description>ANZ Plus - a new digital first cloud based banking platform After many years working with awesome people we&amp;rsquo;ve created a new digital banking platform inside ANZ called ANZ Plus.</description>
     </item>
     
     <item>
       <title>Google Cloud Next</title>
-      <link>https://mikeberry.dev/showcase/conference-2/</link>
+      <link>/showcase/conference-2/</link>
       <pubDate>Fri, 12 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/showcase/conference-2/</guid>
+      <guid>/showcase/conference-2/</guid>
       <description>Cloud Next 2019 - Google Cloud DevOps: Speed With Reliability and Security After an earlier talk in Sydney, Australia the Google team asked if I could present at Google Cloud Next in San Francisco.</description>
     </item>
     
     <item>
       <title>Red Hat Innovation Award Winner</title>
-      <link>https://mikeberry.dev/showcase/award-0/</link>
+      <link>/showcase/award-0/</link>
       <pubDate>Wed, 21 Nov 2018 05:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/showcase/award-0/</guid>
+      <guid>/showcase/award-0/</guid>
       <description>ANZ Bank Honored as Red Hat Innovation Awards APAC 2018 Winners Categories: Modern Application Development and Digital Transformation Winner: ANZ Bank</description>
     </item>
     
     <item>
       <title>DevOps Talks Conference 2018</title>
-      <link>https://mikeberry.dev/showcase/conference-0/</link>
+      <link>/showcase/conference-0/</link>
       <pubDate>Mon, 27 Aug 2018 05:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/showcase/conference-0/</guid>
+      <guid>/showcase/conference-0/</guid>
       <description>DevOps Talks Conference 2018 - The road to Kubernetes This is the story of how a small 5 person &amp;ldquo;Pitcrew&amp;rdquo; team grew into a 30+ person Platform Engineering Team.</description>
     </item>
     
     <item>
       <title>Bruce Lee. Lessons in Agile</title>
-      <link>https://mikeberry.dev/posts/post-0/</link>
+      <link>/posts/post-0/</link>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/posts/post-0/</guid>
+      <guid>/posts/post-0/</guid>
       <description>You have been asked to start a new team that will be developing software.</description>
     </item>
     
     <item>
       <title>Regtech in Australia</title>
-      <link>https://mikeberry.dev/posts/post-1/</link>
+      <link>/posts/post-1/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/posts/post-1/</guid>
+      <guid>/posts/post-1/</guid>
       <description>What is Regtech? Regulatory Technology or regtech, makes use of technology to digitise operational risk and compliance processes.</description>
     </item>
     
     <item>
-      <title>Classic</title>
-      <link>https://mikeberry.dev/homepage/classic/</link>
+      <title>About</title>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/homepage/classic/</guid>
+      <guid>/about/</guid>
+      <description>I’m Mike Berry a Technology Leader I build high performing engineering teams that create amazing software products.</description>
+    </item>
+    
+    <item>
+      <title>Classic</title>
+      <link>/homepage/classic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homepage/classic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Creative</title>
-      <link>https://mikeberry.dev/homepage/creative/</link>
+      <link>/homepage/creative/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/homepage/creative/</guid>
+      <guid>/homepage/creative/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guidelines</title>
-      <link>https://mikeberry.dev/guidelines/</link>
+      <link>/guidelines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/guidelines/</guid>
+      <guid>/guidelines/</guid>
       <description>Guidelines Welcome to mikeberry.dev. I do my best to make sure that the discussions on my articles are troll, spam and abuse free but I&amp;rsquo;m not omnipresent.</description>
     </item>
     
     <item>
       <title>Mike Berry</title>
-      <link>https://mikeberry.dev/author/mike-berry/</link>
+      <link>/author/mike-berry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/author/mike-berry/</guid>
+      <guid>/author/mike-berry/</guid>
       <description>Having worked in in financial services for many years, I am a fintech geek and love the world of tech start-ups.</description>
     </item>
     
