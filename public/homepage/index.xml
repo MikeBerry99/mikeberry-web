@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homepages on Mike Berry | Fintech Adventures</title>
-    <link>https://mikeberry.dev/homepage/</link>
+    <link>/homepage/</link>
     <description>Recent content in Homepages on Mike Berry | Fintech Adventures</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://mikeberry.dev/homepage/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/homepage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Classic</title>
-      <link>https://mikeberry.dev/homepage/classic/</link>
+      <link>/homepage/classic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/homepage/classic/</guid>
+      <guid>/homepage/classic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Creative</title>
-      <link>https://mikeberry.dev/homepage/creative/</link>
+      <link>/homepage/creative/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeberry.dev/homepage/creative/</guid>
+      <guid>/homepage/creative/</guid>
       <description></description>
     </item>
     
