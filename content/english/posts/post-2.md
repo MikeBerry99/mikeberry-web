@@ -23,7 +23,7 @@ That first meeting was over 7 years ago now. In 2022 the DevOps movement is bigg
 
 ![DevOps - Google Trend data](/images/post/devops-google-trend.jpg)
 
-> If DevOps has become so popular, why all the recent talk that “DevOps is Dead”?
+So, if DevOps has become so popular, why all the recent talk that **“DevOps is Dead”**?
 
 - [The New Stack - DevOps Is Dead. Embrace Platform Engineering](https://thenewstack.io/devops-is-dead-embrace-platform-engineering/)
 - [TechBeacon - Has DevOps turned development into a juggling act?](https://techbeacon.com/app-dev-testing/has-devops-turned-development-juggling-act)
@@ -46,7 +46,7 @@ Likewise, DevOps theatre can be recognised by the prevalence of the appearance o
 For all those poor teams stuck in DevOps theatre, you can understand why they do not love DevOps.
 
 ### Do it all Developers
-Developers are tiring of the idea that they should be doing both the development and operational work because (in the words of Werner Vogels Amazon CTO) “If you build it, you run it.” This sentiment came from the early days of DevOps when team worried about “the wall” between development and operations. The intent was to bring the two teams closer together in terms of skillsets and communication. The Ops team use more “dev” skills like configuration as code to do their work. Similarly, the dev team give more consideration to ops concerns like instrumenting code to work with Open Telemetry.
+Developers are tiring of the idea that they should be doing both the development and operational work because (in the words of Werner Vogels Amazon CTO) “If you build it, you run it.” This sentiment came from the early days of DevOps when team worried about “the wall” between development and operations. The intent was to bring the two teams closer together in terms of skillsets and communication. The ops team use more 'dev' skills like configuration as code to do their work. Similarly, the dev team give more consideration to 'ops' concerns like instrumenting code to work with Open Telemetry.
 
 ![Developers and Operations personalities](/images/post/devandops.jpg)
 
@@ -59,7 +59,7 @@ Platform Engineering takes the lessons learnt from DevOps and creates a new oper
 
 ![Gartner Hype Cycle 2022](/images/post/HypeCycle.jpg)
 
-I first [started discussing](https://www.meetup.com/devops-melbourne/events/237351113/) the need for a Platform Engineering team in 2017. After some organisation wrangling, we had the first team up and running the following year. Since then, the team has continued to expand in both in size and responsibility. This operating model started even earlier in Silicon Valley. In 2015 Google worked with the Cloud Native Computing Foundation (CNCF) to release Kubernetes 1.0. Kubernetes was heavily influenced by the Google’s [cluster management platform](https://www.youtube.com/watch?v=0W49z8hVn0k) - “Borg.” That same year Netflix released their own open-source project - ([Spinnaker](https://spinnaker.io/)) a continuous software delivery platform. Both open-source projects the result of years of effort by their respective Platform Engineering teams.
+I first [started discussing](https://www.meetup.com/devops-melbourne/events/237351113/) the need for a Platform Engineering team in 2017. After some organisational wrangling, we had the first team up and running the following year. Since then, the team has continued to expand in both in size and responsibility. This operating model started even earlier in Silicon Valley. In 2015 Google worked with the Cloud Native Computing Foundation (CNCF) to release Kubernetes 1.0. Kubernetes was heavily influenced by the Google’s [cluster management platform](https://www.youtube.com/watch?v=0W49z8hVn0k) - “Borg.” That same year Netflix released their own open-source project - ([Spinnaker](https://spinnaker.io/)) a continuous software delivery platform. Both open-source projects the result of years of effort by their respective Platform Engineering teams.
 
 *What exactly is a Platform Engineering team and what problems do they solve?*
 
