@@ -1,0 +1,5 @@
+# This is a single user repository so Mike Berry is the only approver.
+
+# This owner will be the default owners for everything in
+# the repo. Unless a later match takes precedence.
+*       @mikeberry99
