@@ -2,10 +2,10 @@
 title: "Is DevOps Dead?"
 image: "images/post/devops-conference.jpg"
 author: "Mike Berry"
-date: 2022-11-09T00:00:00Z
-description: "DevOps is not dead. Platform engineering is growing"
+date: 2022-11-12T00:00:00Z
+description: "Is DevOps Dead? What is Platform Engineering? Can it improve developer experience, and will it replace DevOps?"
 categories: ["DevOps"]
-tags: ["Agile", "DevOps"]
+tags: ["Agile", "DevOps", "Platform Engineering"]
 featured: true
 ---
 
@@ -21,7 +21,7 @@ I decided on an experiment. I booked a meeting space for 200 people and invited 
 
 That first meeting was over 7 years ago now. In 2022 the DevOps movement is bigger than ever. What began with a [single DevOpsDays conference](https://www.youtube.com/watch?v=o7-IuYS0iSE) in Ghent in 2009 expanded to include 80 conferences around the world in 2019. As you can see from the Google Trends data below, there has never been more interest in DevOps.
 
-![DevOps - Google Trend data](/images/post/devops-google-trend.jpg)
+![DevOps - Google Trend data](/images/post/devops-google-trend.webp)
 
 So, if DevOps has become so popular, why all the recent talk that **“DevOps is Dead”**?
 
@@ -39,7 +39,7 @@ What happens when your company decides to jump into DevOps without first underst
 
 DevOps theatre is much like its cousin - Agile Theatre. That is when your “agile transformation” only involves the most visible parts of Agile. You have a daily stand-up, you plan 2-week sprints, your office walls are overloaded with sticky notes and planning includes creating points which you burn later in the week. Sadly, behind all that agile effort, Agile Theatre misses the substance. The daily feedback does not alter decisions, tasks rarely complete when estimated and the only impact to your daily work is the added overhead of admin in Jira.
 
-[![Daily Stand-up](/images/post/dailystandup.jpg)](https://medium.com/hackernoon/scrum-gone-wild-in-15-cartoons-cca23937a183)
+[![Daily Stand-up](/images/post/dailystandup.webp)](https://medium.com/hackernoon/scrum-gone-wild-in-15-cartoons-cca23937a183)
 
 Likewise, DevOps theatre can be recognised by the prevalence of the appearance of change without the substance. Typically, it involves purchasing many, many DevOps tools that create as many problems as they solve. You create separate DevOps team full of DevOps engineers to manage the new tools sprawl and build complex deployment pipelines. Your CI/CD process becomes like a “choose your own adventure” story with diverging paths of bash scripts, where occasionally a bear devours your code. DevOps theatre runs on Kubernetes (which you always call k8s “Kates”), it has a dashboard and an impressively large AWS bill.
 
@@ -48,7 +48,7 @@ For all those poor teams stuck in DevOps theatre, you can understand why they do
 ### Do it all Developers
 Developers are tiring of the idea that they should be doing both the development and operational work because (in the words of Werner Vogels Amazon CTO) “If you build it, you run it.” This sentiment came from the early days of DevOps when team worried about “the wall” between development and operations. The intent was to bring the two teams closer together in terms of skillsets and communication. The ops team use more 'dev' skills like configuration as code to do their work. Similarly, the dev team give more consideration to 'ops' concerns like instrumenting code to work with Open Telemetry.
 
-![Developers and Operations personalities](/images/post/devandops.jpg)
+![Developers and Operations personalities](/images/post/devandops.webp)
 
 Closer communication and swapping skills make sense, but does DevOps mean developers support production? Do you need to have your development team ready to be paged? Does DevOps demand developer devotion to daily (ops) duties? Maybe.
 
@@ -57,7 +57,7 @@ There is significant value in the development team helping to “run” the soft
 ## Platform Engineering
 Platform Engineering takes the lessons learnt from DevOps and creates a new operating model. A way of working that is optimised for teams creating cloud native software.
 
-![Gartner Hype Cycle 2022](/images/post/HypeCycle.jpg)
+![Gartner Hype Cycle 2022](/images/post/HypeCycle.webp)
 
 I first [started discussing](https://www.meetup.com/devops-melbourne/events/237351113/) the need for a Platform Engineering team in 2017. After some organisational wrangling, we had the first team up and running the following year. Since then, the team has continued to expand in both in size and responsibility. This operating model started even earlier in Silicon Valley. In 2015 Google worked with the Cloud Native Computing Foundation (CNCF) to release Kubernetes 1.0. Kubernetes was heavily influenced by the Google’s [cluster management platform](https://www.youtube.com/watch?v=0W49z8hVn0k) - “Borg.” That same year Netflix released their own open-source project - ([Spinnaker](https://spinnaker.io/)) a continuous software delivery platform. Both open-source projects the result of years of effort by their respective Platform Engineering teams.
 
@@ -79,7 +79,7 @@ The third area of consideration is Developer Experience (DevEx). This can be a b
 
 A Platform Engineering team can help optimise and fix issues that can improve the development experience across teams. Spotify have invested in this area and created a developer portal called [Backstage](https://backstage.io/). Backstage is particularly useful if you work in a large company with many teams of engineers working and build software together. A clear example of the benefits a Platform Engineering team can bring.
 
-![Spotify - Backstage](/images/post/backstage.jpg)
+![Spotify - Backstage](/images/post/backstage.webp)
 
 ## The final verdict - Peak DevOps?
 Is DevOps dead - no. DevOps is still popular and will continue to be discussed for years to come. Platform Engineering is not going to replace DevOps. Platform Engineering will continue to be an opinionated subset of DevOps practises slowly increasing in popularity as more companies come to see the benefits of these platform teams.
