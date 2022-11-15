@@ -6,11 +6,11 @@
     <description>Recent content in Tags on Mike Berry | Fintech Adventures</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agile</title>
       <link>/tags/agile/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>/tags/agile/</guid>
       <description></description>
@@ -19,9 +19,18 @@
     <item>
       <title>DevOps</title>
       <link>/tags/devops/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Platform Engineering</title>
+      <link>/tags/platform-engineering/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/platform-engineering/</guid>
       <description></description>
     </item>
     
