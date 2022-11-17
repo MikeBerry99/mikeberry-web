@@ -77,7 +77,7 @@ Careful ongoing product management of the platform is required as the team canno
 ### Developer Experience
 The third area of consideration is Developer Experience (DevEx). This can be a broad area that includes everything from the onboarding experience and laptop setup thorough to the ease of code deployment and troubleshooting.
 
-A Platform Engineering team can help optimise and fix issues that can improve the development experience across teams. Spotify have invested in this area and created a developer portal called [Backstage](https://backstage.io/). Backstage is particularly useful if you work in a large company with many teams of engineers working and build software together. A clear example of the benefits a Platform Engineering team can bring.
+A Platform Engineering team can help optimise and fix issues that can improve the development experience across teams. Spotify have invested in this area and created a developer portal called [Backstage](https://backstage.io/). Backstage is particularly useful if you work in a large company with many teams of engineers working and building software together. A clear example of the benefits a Platform Engineering team can bring.
 
 ![Spotify - Backstage](/images/post/backstage.webp)
 
