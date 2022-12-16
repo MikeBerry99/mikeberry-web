@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: "about"
-image: "images/about.jpg"
+image: "images/about.webp"
 background_shape: "images/banner-shape.png"
 draft: false
 

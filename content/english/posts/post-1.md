@@ -1,6 +1,6 @@
 ---
 title: "Regtech in Australia"
-image: "images/post/regtech.jpg"
+image: "images/post/regtech.webp"
 author: "Mike Berry"
 date: 2022-04-15T00:00:00Z
 description: "Australia is one of the leading regtech markets in the world"

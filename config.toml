@@ -24,7 +24,7 @@ unsafe= true
 ######################### Default Parameters ###########################
 [params]
 # logo
-logo = "images/mikeberry-logo.png"
+logo = "images/mikeberry-logo.webp"
 # favicon
 favicon = "images/favicon.png"
 # meta data
@@ -144,7 +144,7 @@ weight = 1
 [Languages.en.banner]
 bg_image = "images/banner-shape.png"
 title = "Hi, I'm Mike Berry</br>this site is all about my</br> <strong>Adventures in Fintech</strong>"
-image = "images/banner-image.png"
+image = "images/banner-image.webp"
 
 ######################## About Me Widget ###############################
 [Languages.en.about_me]

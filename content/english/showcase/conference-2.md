@@ -7,7 +7,7 @@ description: "I was lucky enough to share the stage with tech icons Jez Humble (
 weight: 30
 category: ["Conferences"]
 
-thumbnail: "images/showcase/google-cloud-next.jpg"
+thumbnail: "images/showcase/google-cloud-next.webp"
 tools_website_link: "https://www.youtube.com/watch?v=cXXZ-AOCALU&t=1252s"
 
 tools_info:
@@ -17,7 +17,7 @@ tools_info:
   content: "San Francisco, California"
 
 tools_images:
-- image: "images/showcase/ShiftSecurityLeft.jpg"
+- image: "images/showcase/ShiftSecurityLeft.webp"
 ---
 
 ## Cloud Next 2019 - Google Cloud DevOps: Speed With Reliability and Security
