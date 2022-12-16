@@ -7,7 +7,7 @@ description: "Talking at the 'DevOps Talks Conference' in Sydney, Australia 2018
 weight: 50
 category: ["Conferences"]
 
-thumbnail: "images/showcase/devopstalks.jpg"
+thumbnail: "images/showcase/devopstalks.webp"
 tools_website_link: "https://youtu.be/ZVca312Exc4?t=110"
 
 tools_info:
@@ -17,7 +17,7 @@ tools_info:
   content: "Sydney, Australia"
 
 tools_images:
-- image: "images/showcase/devopstalks-0.jpg"
+- image: "images/showcase/devopstalks-0.webp"
 ---
 
 ## DevOps Talks Conference 2018 - The road to Kubernetes

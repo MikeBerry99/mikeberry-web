@@ -7,7 +7,7 @@ description: "Myself and two other engineering leaders discussing how to create 
 weight: 10
 category: ["Media"]
 
-thumbnail: "images/showcase/podcast.png"
+thumbnail: "images/showcase/podcast.webp"
 tools_website_link: "https://open.spotify.com/episode/455kLP6olAv2tUdXjUgelG"
 
 tools_info:
@@ -18,7 +18,7 @@ tools_info:
   content: "Melbourne, Australia"
 
 tools_images:
-- image: "images/showcase/podcast.png"
+- image: "images/showcase/podcast.webp"
 ---
 
 ## Creating High Performance Teams

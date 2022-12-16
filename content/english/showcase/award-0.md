@@ -7,7 +7,7 @@ description: "All the way from idea to full production migration. Red Hat acknow
 weight: 40
 category: ["Awards"]
 
-thumbnail: "images/showcase/redhat-award.jpg"
+thumbnail: "images/showcase/redhat-award.webp"
 tools_website_link: "https://www.redhat.com/en/about/press-releases/anz-bank-and-new-zealand-customs-service-honored-red-hat-innovation-awards-apac-2018-winners-anz"
 
 tools_info:
@@ -18,7 +18,7 @@ tools_info:
   content: "Sydney, Australia"
 
 tools_images:
-- image: "images/showcase/redhat-award-1.jpg"
+- image: "images/showcase/redhat-award-1.webp"
 ---
 
 ## ANZ Bank Honored as Red Hat Innovation Awards APAC 2018 Winners

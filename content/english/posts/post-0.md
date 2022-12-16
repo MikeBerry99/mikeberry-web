@@ -1,6 +1,6 @@
 ---
 title: "Bruce Lee. Lessons in Agile"
-image: "images/post/brucelee-agile.jpg"
+image: "images/post/brucelee-agile.webp"
 author: "Mike Berry"
 date: 2022-05-10T00:00:00Z
 description: "Understanding more about running Agile in teams by applying three lessons from Bruce Lee"
@@ -31,7 +31,7 @@ Now you may wonder how someone that lived well before people started to stand in
 Although Lee “won” the match, he was disappointed as he felt the fight had taken too long and he had failed to reach his full potential using his Wing Chun techniques. Bruce decided that the traditional martial arts techniques had become stale and had little to do with real world combat. 
 To resolve this he created a new martial art that was designed to be more flowing and adaptive called Jeet Kune Do or the Way of the Intercepting Fist. The basic principles included: simplicity, directness and freedom (the form of no form). Jeet Kune Do required the mastery of both physical techniques and the associated philosophy. Students in the martial art needed to train both physically and mentally.
 
-![Bruce Lee in meditation](/images/post/brucelee-meditate.jpg)
+![Bruce Lee in meditation](/images/post/brucelee-meditate.webp)
 
 And thus we come to our first of three Agile lessons from Bruce Lee.
 
