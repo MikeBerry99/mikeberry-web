@@ -6,7 +6,8 @@ date: 2023-01-27T00:00:00Z
 description: "What is safety culture?"
 categories: ["DevOps"]
 tags: ["Agile", "DevOps", "Safety Culture"]
-featured: true
+featured: false
+draft: true
 ---
 ### Notes
 
