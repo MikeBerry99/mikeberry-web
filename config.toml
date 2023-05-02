@@ -1,7 +1,7 @@
 ############################ Default configuration #########################
 baseURL = "/"
 # site title 
-title = "Mike Berry | Fintech Adventures"
+title = "Mike Berry | Tech Adventures"
 # theme
 theme = "northendlab"
 # post pagination
@@ -143,13 +143,13 @@ weight = 1
 ####################### Banner #######################################
 [Languages.en.banner]
 bg_image = "images/banner-shape.png"
-title = "Hi, I'm Mike Berry</br>this site is all about my</br> <strong>Adventures in Fintech</strong>"
+title = "Hi, I'm Mike Berry</br>this site is all about my</br> <strong>Adventures in Tech</strong>"
 image = "images/banner-image.webp"
 
 ######################## About Me Widget ###############################
 [Languages.en.about_me]
 title = "Hi, I'm Mike Berry"
-bio = "Engineering Leader | Fintech geek | DevOps | Product Managment"
+bio = "Engineering Leader | DevOps | Product Managment | Fintech"
 
 [[params.social_profile]]
 icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
@@ -163,13 +163,13 @@ link = "https://github.com/MikeBerry99"
 
 ######################## call to action ###############################
 [params.cta]
-enable = true
+enable = false
 image = "images/hugo-muscot.svg"
 title = "Get the best hugo templates"
 description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
 
 [params.cta.button]
-enable = true
+enable = false
 label = "Visit Here"
 link = "https://gethugothemes.com/shop/"
 

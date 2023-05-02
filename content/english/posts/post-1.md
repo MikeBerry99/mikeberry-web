@@ -6,7 +6,7 @@ date: 2022-04-15T00:00:00Z
 description: "Australia is one of the leading regtech markets in the world"
 categories: ["Regtech"]
 tags: ["Regtech","Fintech","Australia"]
-featured: true
+featured: false
 
 ---
 

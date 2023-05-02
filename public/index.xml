@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mike Berry | Fintech Adventures</title>
+    <title>Mike Berry | Tech Adventures</title>
     <link>/</link>
-    <description>Recent content on Mike Berry | Fintech Adventures</description>
+    <description>Recent content on Mike Berry | Tech Adventures</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast - Tech Talk - DevOps is dead?</title>
+      <link>/showcase/media-2/</link>
+      <pubDate>Wed, 21 Dec 2022 05:00:00 +0000</pubDate>
+      
+      <guid>/showcase/media-2/</guid>
+      <description>Episode Thirty – DevOps is dead? Our latest Tech Talk podcast brings in Mike Berry, a tech exec from ANZ to discuss his article “Is DevOps dead?</description>
+    </item>
+    
     <item>
       <title>Podcast - Evolution Exchange</title>
       <link>/showcase/media-1/</link>
@@ -23,6 +32,15 @@
       
       <guid>/showcase/media-0/</guid>
       <description>ANZ Plus - creating a digital first cloud based banking platform In 2022 ANZ Bank launch a new digital bank with financial wellbeing at its core called ANZ Plus.</description>
+    </item>
+    
+    <item>
+      <title>Meetup - Cloud Platform Engineering</title>
+      <link>/showcase/conference-3/</link>
+      <pubDate>Wed, 19 Apr 2023 05:00:00 +0000</pubDate>
+      
+      <guid>/showcase/conference-3/</guid>
+      <description>Cloud Platform Engineering: Strategies &amp;amp; Lessons Learnt We will discuss cloud-native tooling, FinOps, metrics that matter, role of a platform engineer and more&amp;hellip;</description>
     </item>
     
     <item>
@@ -50,6 +68,15 @@
       
       <guid>/showcase/conference-0/</guid>
       <description>DevOps Talks Conference 2018 - The road to Kubernetes This is the story of how a small 5 person &amp;ldquo;Pitcrew&amp;rdquo; team grew into a 30+ person Platform Engineering Team.</description>
+    </item>
+    
+    <item>
+      <title>Safety Culture and DevOps</title>
+      <link>/posts/post-3/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/post-3/</guid>
+      <description>Introduction One of the things I love about DevOps is the broad base of knowledge that the principles and practises come from.</description>
     </item>
     
     <item>
@@ -86,24 +113,6 @@
       
       <guid>/about/</guid>
       <description>I’m Mike Berry a Technology Leader I build high performing engineering teams that create amazing software products.</description>
-    </item>
-    
-    <item>
-      <title>Classic</title>
-      <link>/homepage/classic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/homepage/classic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Creative</title>
-      <link>/homepage/creative/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/homepage/creative/</guid>
-      <description></description>
     </item>
     
     <item>
