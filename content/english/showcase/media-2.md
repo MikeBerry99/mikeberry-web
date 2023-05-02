@@ -8,7 +8,7 @@ weight: 10
 category: ["Media"]
 
 thumbnail: "images/showcase/cloudify-podcast.webp"
-tools_website_link: "https://open.spotify.com/episode/455kLP6olAv2tUdXjUgelG"
+tools_website_link: "https://cloudify.co/podcast/podcast-30-episode-thirty-devops-is-dead-a-discussion-on-how-we-strike-a-balance-between-the-developer-and-platform-team/"
 
 tools_info:
 - title: "Category :"
