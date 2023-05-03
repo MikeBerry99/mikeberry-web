@@ -1,6 +1,6 @@
 ---
 title: "Is DevOps Dead?"
-image: "https://cdn.mikeberry.dev/images/post/devops-conference.webp"
+image: "https://cdn.mikeberry.dev/images/post/devops-conference.jpg"
 author: "Mike Berry"
 date: 2022-11-12T00:00:00Z
 description: "Is DevOps Dead? What is Platform Engineering? Can it improve developer experience, and will it replace DevOps?"

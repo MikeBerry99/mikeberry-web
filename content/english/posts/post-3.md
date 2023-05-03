@@ -1,6 +1,6 @@
 ---
 title: "Safety Culture and DevOps"
-image: "https://cdn.mikeberry.dev/images/post/title-B-17-crash.webp"
+image: "https://cdn.mikeberry.dev/images/post/title-B-17-crash.jpg"
 author: "Mike Berry"
 date: 2023-05-02T00:00:00Z
 description: "What is safety culture? How does it apply to DevOps and Software Engineering? What lessons can we learn from it?"

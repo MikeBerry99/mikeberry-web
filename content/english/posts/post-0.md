@@ -1,6 +1,6 @@
 ---
 title: "Bruce Lee. Lessons in Agile"
-image: "images/post/brucelee-agile.webp"
+image: "images/post/brucelee-agile.jpg"
 author: "Mike Berry"
 date: 2022-05-10T00:00:00Z
 description: "Understanding more about running Agile in teams by applying three lessons from Bruce Lee"
