@@ -1,6 +1,6 @@
 ---
 title: "Safety Culture and DevOps"
-image: "http://cdn.mikeberry.dev/images/post/title-B-17-crash.webp"
+image: "https://cdn.mikeberry.dev/images/post/title-B-17-crash.webp"
 author: "Mike Berry"
 date: 2023-05-02T00:00:00Z
 description: "What is safety culture?"
@@ -24,15 +24,15 @@ We begin our journey of understanding in 1943 over the English Channel inside a 
 
 At the end of a successful mission, you can imagine the relief of the crew of 10 (including 2 pilots) passing over the Cliffs of Dover ready to get some rest after more than 6 hours of stressful flying. As the plane approaches the runway it unexpectedly drops toward the ground and crash lands with the landing gear still up. As the bruised and broken crew emerge from the plane wreckage they wonder. How did a routine landing suddenly go so wrong?
 
-![Crashed B-17](http://cdn.mikeberry.dev/images/post/B-17-crash.webp)
+![Crashed B-17](https://cdn.mikeberry.dev/images/post/B-17-crash.webp)
 
 The answer to "what went wrong" for most of these similar accidents was recorded as 'pilot error'. Due to stress, trauma or just incompetence the pilot had made a mistake on the landing approach that put their life and the lives of their crew in jeopardy. In a 22-month period the Air Force had reports of over 400 similar incidents where pilot error led to damage, injury or in some cases death. It wasn't until after the War that further investigation was done into these incidents.
 
-![B-17 cockpit controls](http://cdn.mikeberry.dev/images/post/B-17-controls.webp)
+![B-17 cockpit controls](https://cdn.mikeberry.dev/images/post/B-17-controls.webp)
 
 Alphonse Chapanis (an Airforce psychologist) recognized that the design of the cockpit controls contributed to confusion and mistakes<sup>[1](#references)</sup>. He noted that the flaps and landing gears had identical switches and were in the same area in the cockpit. During the high-workload period on the landing approach pilots would retract the landing gear leaving the flaps in place. Chapanis solution was to design new controls. The landing gear became a lever with a circle knob at the end, while the flaps a large lever with a square end. Once the new controls were successfully designed and installed no further similar incidents occurred. This "shape coding" of the cockpit controls is still in use today and was one of the first examples of applied ergonomics or human factors in design.
 
-![Modern cockpit controls](http://cdn.mikeberry.dev/images/post/modern-controls.webp)
+![Modern cockpit controls](https://cdn.mikeberry.dev/images/post/modern-controls.webp)
 
 In 1947 Paul Fitts and Richard Jones built on Chapanis's work and looked deeper into this idea of 'pilot error'. Their study examined hundreds of incidents gathering extra information via recorded interviews and written reports. It had been assumed that these errors were due to poor pilot selection, training, or operations. The data Fitts and Jones collated did not match these assumptions. It appeared that pilots of all levels of experience and from a variety of cadres (training groups) sometimes made errors. Fitts and Jones refused to classify these events as 'failures' choosing to use the more neutral term 'experiences'.<sup>[2](#references)</sup>
 
@@ -57,7 +57,7 @@ The B-17 story is an example of using the New View to provide insights that can 
 
 > Over a six-year period, 'hundreds of aircraft mechanics were cited for logbook violations. People working the aircraft on the gate were under pressure and they would screw up the paperwork.' Violations meant suspensions or a fine.<sup>[2](#references)</sup>
 
-![Airplane Mechanics](http://cdn.mikeberry.dev/images/post/airplane-mechanics.webp)
+![Airplane Mechanics](https://cdn.mikeberry.dev/images/post/airplane-mechanics.webp)
 
 How do you improve compliance in this important area? Do you increase fines? Add incentives? Or post a memo to remind mechanics logbooks are important?
 
@@ -67,7 +67,7 @@ A New View investigation doesn't rush to detail the chain of events and thereby 
 
 >In one mining operation, workers who maintained the big haul trucks were suffering from hand injuries. Each of these injuries was investigated and a report drawn up. It identified the typical explanatory factors: time pressure, people sticking their hands in places where they don't belong, lack of correct protective equipment, problems of light and visibility. These explanatory factors, however, did little to point the way to prevention or improvement. They suggested to people to stare harder, try more, follow the rules, be careful. None of that worked.<sup>[2](#references)</sup>
 
-![Mining heavy Hauler](http://cdn.mikeberry.dev/images/post/heavyhauler.webp)
+![Mining heavy Hauler](https://cdn.mikeberry.dev/images/post/heavyhauler.webp)
 
 The change factor came when someone identified that more than 80 percent of the injuries occurred during unscheduled maintenance along the dusty roads of the mine not during scheduled maintenance in the shed. The company decided to invest aggressively in preventive maintenance (including a larger parts store), to ensure that as few trucks as possible would break down on the road. After it did this, hand injuries went down dramatically. The explanatory factors were not the same as the change factor.
 
@@ -77,7 +77,7 @@ At this point you may be wondering what exactly airplane and mining safety has t
 
 When the team at Google wrote the original [Site Reliability Engineering (SRE) book](https://sre.google/sre-book/introduction/) they dedicated a chapter to discussing their Blameless Culture. From Chapter 15 of the SRE Book we learn:
 
-![Site Reliability Engineering Book](http://cdn.mikeberry.dev/images/post/SRE-book.webp)
+![Site Reliability Engineering Book](https://cdn.mikeberry.dev/images/post/SRE-book.webp)
 
 > Blameless post-mortems are a tenet of SRE culture. For a post-mortem to be truly blameless, it must focus on identifying the contributing causes of the incident without indicting any individual or team for bad or inappropriate behaviour. A blamelessly written post-mortem assumes that everyone involved in an incident had good intentions and did the right thing with the information they had.
 
