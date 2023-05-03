@@ -1,6 +1,6 @@
 +++
 title = "Mike Berry"
-image = "http://cdn.mikeberry.dev/images/author/mike-berry.webp"
+image = "https://cdn.mikeberry.dev/images/author/mike-berry.webp"
 description = "Front end developer"
 +++
 

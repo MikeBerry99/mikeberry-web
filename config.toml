@@ -142,9 +142,9 @@ weight = 1
 
 ####################### Banner #######################################
 [Languages.en.banner]
-bg_image = "http://cdn.mikeberry.dev/images/banner-shape.png"
+bg_image = "https://cdn.mikeberry.dev/images/banner-shape.png"
 title = "Hi, I'm Mike Berry</br>this site is all about my</br> <strong>Adventures in Tech</strong>"
-image = "http://cdn.mikeberry.dev/images/banner-image.webp"
+image = "https://cdn.mikeberry.dev/images/banner-image.webp"
 
 ######################## About Me Widget ###############################
 [Languages.en.about_me]
