@@ -6,7 +6,7 @@
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="{{ .PublishDate }}">
 <meta property="og:image" content="{{ .Params.Image | absURL }}">
-<meta name="og:image" property="og:image" content="{{ .Params.Image | absURL }}">
+<meta name="image" property="og:image" content="{{ .Params.Image | absURL }}">
 {{ end }}
 <meta name="title" content="{{ .Title }}">
 <meta name="description" property="og:description" content="{{ with .Params.description }}{{.}}{{else}}{{ with site.Params.description }}{{.}}{{end}}{{end}}">
