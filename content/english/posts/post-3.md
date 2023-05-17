@@ -65,7 +65,7 @@ The airline chose to visit the station that had most logbook problems. They aske
 
 A New View investigation doesn't rush to detail the chain of events and thereby declare the root cause.  Real insight is rarely found when investigations focus on went wrong in the past (the explanatory factors). Rather time is spent seeking to understand what changes are required for things to go right in the future (the change factors).
 
->In one mining operation, workers who maintained the big haul trucks were suffering from hand injuries. Each of these injuries was investigated and a report drawn up. It identified the typical explanatory factors: time pressure, people sticking their hands in places where they don't belong, lack of correct protective equipment, problems of light and visibility. These explanatory factors, however, did little to point the way to prevention or improvement. They suggested to people to stare harder, try more, follow the rules, be careful. None of that worked.<sup>[2](#references)</sup>
+> In one mining operation, workers who maintained the big haul trucks were suffering from hand injuries. Each of these injuries was investigated and a report drawn up. It identified the typical explanatory factors: time pressure, people sticking their hands in places where they don't belong, lack of correct protective equipment, problems of light and visibility. These explanatory factors, however, did little to point the way to prevention or improvement. They suggested to people to stare harder, try more, follow the rules, be careful. None of that worked.<sup>[2](#references)</sup>
 
 ![Mining heavy Hauler](https://cdn.mikeberry.dev/images/post/heavyhauler.webp)
 
