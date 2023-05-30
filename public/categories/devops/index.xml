@@ -6,7 +6,16 @@
     <description>Recent content in DevOps on Mike Berry | Tech Adventures</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Safety Culture and DevOps Part 2</title>
+      <link>/posts/post-4/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/post-4/</guid>
+      <description>Introduction Welcome to the second part of our two-part series on DevOps and Safety Culture.</description>
+    </item>
+    
     <item>
       <title>Safety Culture and DevOps</title>
       <link>/posts/post-3/</link>
