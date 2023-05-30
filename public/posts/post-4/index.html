@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us"><meta charset="utf-8">
-<title>Showcase</title>
+<title>Safety Culture and DevOps Part 2</title>
 
-<meta name="title" content="Showcase">
-<meta name="description" property="og:description" content="this is meta description">
-<meta property="og:title" content="Showcase">
-<meta property="og:description" content="this is meta description">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-05-30 00:00:00 &#43;0000 UTC">
+<meta property="og:image" content="/images/post/flight-operations.jpg">
+<meta name="image" property="og:image" content="/images/post/flight-operations.jpg">
+
+<meta name="title" content="Safety Culture and DevOps Part 2">
+<meta name="description" property="og:description" content="What is safety culture? How does it apply to DevOps and Software Engineering? What makes High Reliability Organisations successful">
+<meta property="og:title" content="Safety Culture and DevOps Part 2">
+<meta property="og:description" content="What is safety culture? How does it apply to DevOps and Software Engineering? What makes High Reliability Organisations successful">
 
 
 <meta name="author" property="article:author" content="Mike Berry">
@@ -34,12 +39,17 @@
 </script>
 <head>
   <meta charset="utf-8">
-<title>Showcase</title>
+<title>Safety Culture and DevOps Part 2</title>
 
-<meta name="title" content="Showcase">
-<meta name="description" property="og:description" content="this is meta description">
-<meta property="og:title" content="Showcase">
-<meta property="og:description" content="this is meta description">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-05-30 00:00:00 &#43;0000 UTC">
+<meta property="og:image" content="/images/post/flight-operations.jpg">
+<meta name="image" property="og:image" content="/images/post/flight-operations.jpg">
+
+<meta name="title" content="Safety Culture and DevOps Part 2">
+<meta name="description" property="og:description" content="What is safety culture? How does it apply to DevOps and Software Engineering? What makes High Reliability Organisations successful">
+<meta property="og:title" content="Safety Culture and DevOps Part 2">
+<meta property="og:description" content="What is safety culture? How does it apply to DevOps and Software Engineering? What makes High Reliability Organisations successful">
 
 
 <meta name="author" property="article:author" content="Mike Berry">
@@ -172,147 +182,251 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=G-4CDGWW0KWD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
+
+
+
+
+
+
+
 <section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-md-3 mb-4 mb-md-0">
-        <div class="position-sticky" style="top:110px">
-          <div class="tools-filter-btn btn-group btn-group-toggle justify-content-center d-flex flex-column" data-toggle="buttons">
-            <label class="btn active mb-2 text-left">
-              <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
-            </label>
+    <div class="row justify-content-center">
+      
+      
+      
+
+      <div class="col-lg-8 ">
+        <div class="block shadow mb-4">
+          <h2>Safety Culture and DevOps Part 2</h2>
+          <div class="mb-4 mt-3 post-meta">
+            <a href="/author/mike-berry">Mike Berry</a> <span class="mx-2">|</span>
+            30 May 2023<span class="mx-2">|</span> 
+            <a href="/categories/devops">DevOps</a>
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <label class="btn mb-2 text-left">
-              <input type="radio" name="shuffle-filter" value="media" />Media
-            </label>
-            
-            <label class="btn mb-2 text-left">
-              <input type="radio" name="shuffle-filter" value="conferences" />Conferences
-            </label>
-            
-            <label class="btn mb-2 text-left">
-              <input type="radio" name="shuffle-filter" value="awards" />Awards
-            </label>
+          </div>
+          
+          <img loading="lazy" src="/images/post/flight-operations.jpg" class="img-fluid w-100 mb-4" alt="Safety Culture and DevOps Part 2">
+          
+
+          <div class="content mb-5">
+            <h2 id="introduction">Introduction</h2>
+<p>Welcome to the second part of our two-part series on DevOps and Safety Culture. In case you missed it, we highly recommend going back and reading <a href="/posts/post-3/">Safety Culture and DevOps - Part 1</a>, where we explored some historical aspects of Safety Culture. In this article, we will review the research findings from successful organizations and apply it to software engineering.</p>
+<h2 id="high-reliability-organisations">High Reliability Organisations</h2>
+<p>A sailor on an aircraft carrier, an air traffic controller, and a nuclear power operator. What do they all have in common? They all work in complex environments that are potentially hazardous, yet they continue to operate without major incidents. This is particularly impressive when considering the scale these groups operate at:</p>
+<ul>
+<li>⭕ Each day the United States there are more than 45,000 flights and 2.9 million airline passengers who travel across 29 million square miles of airspace.<sup><a href="#references">1</a></sup></li>
+<li>⭕ Across the United States there are currently 92 nuclear power reactors that account for ~20% of the electricity generated; second only to natural gas.<sup><a href="#references">2</a></sup></li>
+<li>⭕ The US Navy operates 11 active service aircraft carriers, each one with a crew of roughly 4,000.<sup><a href="#references">3</a></sup></li>
+</ul>
+<p>Aircraft carriers are particularly <a href="https://www.youtube.com/watch?v=Ixwc-mFzhwU">demanding environments</a>, flight operations occur 24 hours a day, seven days a week. This complex choreographed ballet of man and machine takes place on a flight deck many times smaller than a typical airport runway. Planes are launched off the deck at the same time as they are recovered. While waiting to launch planes refuel with engines running and live ordnance attached under their wings. The crew must carefully guide the planes to the launch catapult while avoiding the jet exhaust from planes and rotor downwash from helicopters. This all takes place on a flight deck that is constantly in motion on the open sea and covered in salt water.</p>
+<p>Even with all the potential hazards mentioned above and others the US Navy has an excellent safety record. Likewise, both the US Nuclear Power industry and Air Traffic Control maintain high levels of safety and reliability. The question of how this is achieved led researchers from the University of Berkeley to study all three of these organisations to understand how they worked.</p>
+<p>The researchers discovered that these organisations all shared the same five characteristics. It was these common characteristics that gave them the ability to operate in complex and high-risk environments, while still maintaining an excellent record of safety and reliability. This group of organisations are collectively known as <strong>High Reliability Organisations</strong> (HROs). Although the <a href="https://journals.sagepub.com/doi/10.1177/108602668900300202">initial research</a> into HROs focused on these few high risk industries it has since expanded into other settings including health care and wildfire management.</p>
+<p>Any organisation that operates in a complex environment can improve its reliability by understanding and applying the five HRO characteristics. For each of the characteristics below I&rsquo;ve included both the definition and how it applies to software engineering.</p>
+<h2 id="1-sensitivity-to-operations">1. Sensitivity to operations</h2>
+<blockquote>
+<p>HROs maintain a strong focus on their operations and are constantly monitoring and assessing the performance of their systems. They are quick to identify and respond to any deviations from expected standards.</p>
+</blockquote>
+<p><strong>Performance</strong>. What it is about a system that is most critical to monitor? We learn from Site Reliability Engineering (SRE) the concept of <a href="https://sre.google/sre-book/service-level-objectives/">Service Level Indicators (SLIs) and Service Level Objectives (SLOs)</a>. Used correctly the SLIs will help you understand the level of service you are providing to your users.</p>
+<p>Monitoring what percentage of CPU a server is using does not help you understand performance. Similarly, only measuring if an API responds to requests is not useful if every response is a 500 error and your application is crashing. The metrics you monitor should align to the user experience as much as possible. For web/mobile applications this typically means tracking SLIs based on availability, latency, or throughput.</p>
+<p><img src="/images/post/techSupport.webp" alt="Website Down"></p>
+<p><strong>Deviations</strong>. You should be able to discover deviations in your system. What is a deviation? The answer is system dependant, but in a Kubernetes cluster it could be a list of containers that have very high restart counts. Sometimes a deviation is a lack of a metric. Low logins at 3am could be fine but a sudden 50% drop during peak period could point to login system issues.</p>
+<h2 id="2-preoccupation-with-failure">2. Preoccupation with failure</h2>
+<blockquote>
+<p>HROs are constantly aware of the possibility of failure and strive to identify potential problems before they occur. They emphasize proactive risk management and implement strategies to prevent or mitigate adverse events.</p>
+</blockquote>
+<p>While the previous trait was about the current state of the system, a preoccupation with failure is about the future. Like an all-star team of Boy Scouts we need to <a href="https://en.wikipedia.org/wiki/Scout_Motto">&lsquo;Be Prepared&rsquo;</a>.</p>
+<p>How do you prepare for failure? With the right design your system architecture can be both scalable and resilient. High performing teams go even further by following practises such as chaos engineering and running GameDays.</p>
+<p><strong>Chaos Engineering</strong> involves deliberately introducing disruptions and failures into your system such as shutting down services or increasing latency. This seemly paradoxical method works by controlling when and how the failure occurs. The <a href="https://netflix.github.io/chaosmonkey/">chaos experiments</a> are carefully designed, tested, and then monitored as they are executed. This allows you to uncover and fix issues in a known environment before they become your next severity 1 outage.</p>
+<p><strong>GameDays</strong> are much like chaos engineering in that you are running a controlled experiment. The difference is that a GameDay is focused on people and teams. During the GameDay scenario teams respond to a simulated failure to see how they interact. GameDays are conducted as a collaborative effort involving multiple teams, including development, operations, and other relevant stakeholders. The evaluation includes how effective the incident response process was, clarity of communication between teams/stakeholders/users, and any other areas of improvement identified. Although the are called &lsquo;GameDays&rsquo; most scenarios only take a few hours to run.</p>
+<h2 id="3-reluctance-to-simplify">3. Reluctance to simplify</h2>
+<blockquote>
+<p>HROs recognize the complexity of their environment and avoid oversimplifying problems. They invest time and resources in understanding the underlying causes of issues and developing nuanced solutions.</p>
+</blockquote>
+<p>When incidents occur, we want to use that opportunity and extract the maximum amount of learning to improve future resilience. Having a <strong>blameless culture</strong> is key to capturing this learning. If we blame or penalise engineers who make mistakes, we both damage the workplace culture and decrease resilience. Blame and finger-pointing create a hostile and unproductive work environment where teams avoid being drawn into problems. Valuable information about issues is lost or remains hidden as even the smallest mistakes are concealed from others.</p>
+<p>You may wonder, does this lack of blame reduce accountability? Not at all. By abandoning the need to blame we transform the accountability from backward facing to forward looking. By focusing on the future, we can better understand the detail surrounding the incident and can implement meaningful remediation actions.</p>
+<p>Using a standard template is great way to improve your team&rsquo;s <strong>Post Incident Reviews</strong> (PIR). While many good templates exist, a popular template I recommend comes from the <a href="https://sre.google/sre-book/example-postmortem/">SRE Handbook</a>. It is well formatted and includes space for key information such as an incident timeline and lessons learned.</p>
+<h2 id="4-deference-to-expertise">4. Deference to expertise</h2>
+<blockquote>
+<p>HROs value the input and expertise of their employees and encourage a culture of open communication. They recognize that individuals closest to the work are often best positioned to identify and solve problems.</p>
+</blockquote>
+<p>You may have heard of the HiPPO decision making process before. That is when decisions are made by following the Highest Paid Person’s Opinion (also known as the authority bias). HROs seek to involve many voices in decisions, taking care to get input from those with both expertise and experience in that area without regard to hierarchy.</p>
+<p>Deference to expertise also relates to informal communication and learning. During the design of Apple Park (Apple&rsquo;s headquarters in Cupertino) Steve Jobs worked with architect Norman Foster to design many common spaces. The layout building and grounds purposefully encourages informal interaction and collaboration between different teams and departments.</p>
+<p><img src="/images/post/apple-park.webp" alt="Website Down"></p>
+<p>While we may not have the luxury of designing a new office, we can still find ways to informally share expertise. Many organisations have success embedding resources in teams like an architect or platform engineer. While they still belong to a large group of architects they sit with and join in with their embedded team for their day-to-day work.</p>
+<h2 id="5-commitment-to-resilience">5. Commitment to resilience</h2>
+<blockquote>
+<p>HROs prioritize building resilience into their systems to enable quick recovery from failures. They are prepared to adapt to changing circumstances and adjust their processes as necessary.</p>
+</blockquote>
+<p>When building resilience into software there are many practises to consider:</p>
+<ul>
+<li>
+<p><strong>Redundancy via Replication</strong>: If one component fails, the system should continue operating without significant disruption.</p>
+</li>
+<li>
+<p><strong>Fail Fast and Failover</strong>: Failures should be quickly detected, and traffic moved to alternate resources.</p>
+</li>
+<li>
+<p><strong>Fault Isolation and Containment</strong>: Failures should be isolated to contain their impact.</p>
+</li>
+<li>
+<p><strong>Graceful Degradation</strong>: The system should gracefully degrade its functionality in the face of failures or high loads.</p>
+</li>
+<li>
+<p><strong>Load Balancing and Scaling</strong> Workloads should be distributed across multiple servers or instances to handle increased demand and prevent overloading individual components.</p>
+</li>
+</ul>
+<p>Having a commitment to resilience isn&rsquo;t just about high availability architecture, you need to start with a solid foundation and adjust over time. Why would you build a globally load balanced and replicated system for an application that has 20 users in one location? When you build for change you can start small adding scale and redundancy as you grow.</p>
+<p>So how can you create an application with the right attributes to change and evolve over time? The answer is in two very similar practises. The <strong>The Twelve Factor App</strong> and <strong>Cloud Native Architecture</strong>:</p>
+<ul>
+<li>
+<p>⭕ The original Twelve Factor App information was presented over 10 years ago, yet the list remains very relevant today. You can read about all twelve factors on the dedicated <a href="https://12factor.net/">Twelve Factor App website</a></p>
+</li>
+<li>
+<p>⭕ Cloud native applications use many of the practises from the Twelve Factor list and adds some additional focus on making the most from the cloud. This article about <a href="https://cloud.google.com/blog/products/application-development/5-principles-for-cloud-native-architecture-what-it-is-and-how-to-master-it">Cloud-Native Architecture</a> by Tom Grey (Google Cloud architecture expert) gives a great summary.</p>
+</li>
+</ul>
+<h2 id="always-learning">Always learning</h2>
+<p>With time and commitment, any organisation has the potential to become a High Reliability Organisation (HRO) by embodying all five characteristics. Among these traits emerges a central theme - HROs are learning organisations. Never content with their current knowledge and skills, they constantly experiment, learn, and improve. While most technology organisations do not face life-or-death decisions daily, the lessons from HROs remain very relevant to any high performing technology team.</p>
+<p>Having gained insight into Safety Culture and HROs, you are now ready to apply that knowledge in your own team. Start small. Achieving early, small victories generates the momentum necessary for significant changes in the future.</p>
+<p>Consider the lessons above as a source of inspiration rather than a checklist. There is still much more to discover through your own learning and testing. Having a solid foundation of knowledge is an excellent starting point for embarking on your own journey of experimentation and acquiring invaluable firsthand experience.</p>
+<p>For those who have made it all the way to the end and remain interested. I have some recommendations for further listening, reading, and watching.</p>
+<h3 id="bonus-resources">Bonus resources:</h3>
+<p>The <a href="https://www.bradyheywood.com.au/podcasts/">Rethinking Safety Podcast</a> is a great resource for understanding more about HROs and each of the 5 characteristics. I particularly recommend episodes 5 and 6, if you want to skip the first few.</p>
+<p>Also mentioned in part 1 of safety culture is <a href="https://www.amazon.com/Field-Guide-Understanding-Human-Error-dp-1472439058/dp/1472439058/">The Field Guide to Understanding &lsquo;Human Error&rsquo;</a> by Sidney Dekker. This is a great resource for anyone interested in delving deeper into Safety Culture.</p>
+<p>Finally, for anyone who enjoys a good tech troubleshooting story, the following video comes from my former workplace the ANZx team. The video should give you some understanding of what it means to work in an organisation that demonstrates many of the five HRO characteristics. <a href="https://youtu.be/UEgYdB3KPrc">More Questions than Answers. Dom Finn, Principle SRE, ANZx</a>.</p>
+<h5 id="references">References</h5>
+<ol>
+<li><a href="https://www.faa.gov/air_traffic/by_the_numbers">US Federal Aviation Administration - Air traffic by the numbers</a></li>
+<li><a href="https://www.eia.gov/energyexplained/nuclear/us-nuclear-industry.php">Nuclear explained - U.S. nuclear industry</a></li>
+<li><a href="https://www.ussjpkennedyjr.org/how-many-active-aircraft-carriers-in-the-us-navy/">How Many Active Aircraft Carriers In The Us Navy?</a></li>
+</ol>
+
+          </div>
+          <div class="mb-3 post-meta">
+             <a class="bg-light py-2 px-3" href="/tags/agile">#Agile</a>
+             <a class="bg-light py-2 px-3" href="/tags/devops">#DevOps</a>
+             <a class="bg-light py-2 px-3" href="/tags/safety-culture">#Safety Culture</a>
             
           </div>
         </div>
 
+        <div class="block shadow">
+          
+          
+          <h3 class="mb-3">See Also</h3>
+          <ul class="list-unstyled related-post-list">
+            
+            <li><a class="d-inline-block py-1 text-dark" href="/posts/post-3/"><small class="fas fa-external-link-alt mr-2"></small>Safety Culture and DevOps</a></li>
+            
+            <li><a class="d-inline-block py-1 text-dark" href="/posts/post-2/"><small class="fas fa-external-link-alt mr-2"></small>Is DevOps Dead?</a></li>
+            
+            <li><a class="d-inline-block py-1 text-dark" href="/posts/post-0/"><small class="fas fa-external-link-alt mr-2"></small>Bruce Lee. Lessons in Agile</a></li>
+            
+          </ul>
+          
+        </div>
+
+        
       </div>
-      <div class="col-md-9">
-        <div class="row shuffle-wrapper">
-          
-          <div class="col-lg-6 mb-4 pb-2 shuffle-item" data-groups="[&quot;media&quot;]">
-            <div class="card border-0 shadow">
-              <a href="/showcase/media-2/" aria-label="A discussion on how we strike a balance between the developer and platform team."><img loading="lazy" src="/images/showcase/cloudify-podcast.webp" alt="thumbnail-image" class="card-img-top"></a>
-              <div class="card-body">
-                <h4 class="mb-3"><a class="text-dark" href="/showcase/media-2/" aria-label="A discussion on how we strike a balance between the developer and platform team.">Podcast - Tech Talk - DevOps is dead?</a></h4>
-                <p class="mb-2">A discussion on how we strike a balance between the developer and platform team.</p>
-                <a href="/showcase/media-2/" class="btn btn-transparent" aria-label="A discussion on how we strike a balance between the developer and platform team.">Read More</a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-6 mb-4 pb-2 shuffle-item" data-groups="[&quot;media&quot;]">
-            <div class="card border-0 shadow">
-              <a href="/showcase/media-1/" aria-label="Myself and two other engineering leaders discussing how to create high performing teams"><img loading="lazy" src="/images/showcase/podcast.webp" alt="thumbnail-image" class="card-img-top"></a>
-              <div class="card-body">
-                <h4 class="mb-3"><a class="text-dark" href="/showcase/media-1/" aria-label="Myself and two other engineering leaders discussing how to create high performing teams">Podcast - Evolution Exchange</a></h4>
-                <p class="mb-2">Myself and two other engineering leaders discussing how to create high performing teams</p>
-                <a href="/showcase/media-1/" class="btn btn-transparent" aria-label="Myself and two other engineering leaders discussing how to create high performing teams">Read More</a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-6 mb-4 pb-2 shuffle-item" data-groups="[&quot;media&quot;]">
-            <div class="card border-0 shadow">
-              <a href="/showcase/media-0/" aria-label="After 3 years of work all the way from creation of the first empty repository to live digital banking platform."><img loading="lazy" src="/images/showcase/anzplus-app.webp" alt="thumbnail-image" class="card-img-top"></a>
-              <div class="card-body">
-                <h4 class="mb-3"><a class="text-dark" href="/showcase/media-0/" aria-label="After 3 years of work all the way from creation of the first empty repository to live digital banking platform.">A new retail bank emerges</a></h4>
-                <p class="mb-2">After 3 years of work all the way from creation of the first empty repository to live …</p>
-                <a href="/showcase/media-0/" class="btn btn-transparent" aria-label="After 3 years of work all the way from creation of the first empty repository to live digital banking platform.">Read More</a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-6 mb-4 pb-2 shuffle-item" data-groups="[&quot;conferences&quot;]">
-            <div class="card border-0 shadow">
-              <a href="/showcase/conference-3/" aria-label="Talk shared at the Host Cloud Community Meetup"><img loading="lazy" src="/images/showcase/host-meetup.webp" alt="thumbnail-image" class="card-img-top"></a>
-              <div class="card-body">
-                <h4 class="mb-3"><a class="text-dark" href="/showcase/conference-3/" aria-label="Talk shared at the Host Cloud Community Meetup">Meetup - Cloud Platform Engineering</a></h4>
-                <p class="mb-2">Talk shared at the Host Cloud Community Meetup</p>
-                <a href="/showcase/conference-3/" class="btn btn-transparent" aria-label="Talk shared at the Host Cloud Community Meetup">Read More</a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-6 mb-4 pb-2 shuffle-item" data-groups="[&quot;conferences&quot;]">
-            <div class="card border-0 shadow">
-              <a href="/showcase/conference-2/" aria-label="I was lucky enough to share the stage with tech icons Jez Humble (Continuous Delivery) and Ben Treynor Sloss (Site Reliability Engineering). My segment was all about how to &#39;Shift Left with Security&#39;"><img loading="lazy" src="/images/showcase/google-cloud-next.webp" alt="thumbnail-image" class="card-img-top"></a>
-              <div class="card-body">
-                <h4 class="mb-3"><a class="text-dark" href="/showcase/conference-2/" aria-label="I was lucky enough to share the stage with tech icons Jez Humble (Continuous Delivery) and Ben Treynor Sloss (Site Reliability Engineering). My segment was all about how to &#39;Shift Left with Security&#39;">Google Cloud Next</a></h4>
-                <p class="mb-2">I was lucky enough to share the stage with tech icons Jez Humble (Continuous Delivery) and …</p>
-                <a href="/showcase/conference-2/" class="btn btn-transparent" aria-label="I was lucky enough to share the stage with tech icons Jez Humble (Continuous Delivery) and Ben Treynor Sloss (Site Reliability Engineering). My segment was all about how to &#39;Shift Left with Security&#39;">Read More</a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-6 mb-4 pb-2 shuffle-item" data-groups="[&quot;awards&quot;]">
-            <div class="card border-0 shadow">
-              <a href="/showcase/award-0/" aria-label="All the way from idea to full production migration. Red Hat acknowledge the great work the ANZ platform engineering team did to win this innovation award."><img loading="lazy" src="/images/showcase/redhat-award.webp" alt="thumbnail-image" class="card-img-top"></a>
-              <div class="card-body">
-                <h4 class="mb-3"><a class="text-dark" href="/showcase/award-0/" aria-label="All the way from idea to full production migration. Red Hat acknowledge the great work the ANZ platform engineering team did to win this innovation award.">Red Hat Innovation Award Winner</a></h4>
-                <p class="mb-2">All the way from idea to full production migration. Red Hat acknowledge the great work the …</p>
-                <a href="/showcase/award-0/" class="btn btn-transparent" aria-label="All the way from idea to full production migration. Red Hat acknowledge the great work the ANZ platform engineering team did to win this innovation award.">Read More</a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-6 mb-4 pb-2 shuffle-item" data-groups="[&quot;conferences&quot;]">
-            <div class="card border-0 shadow">
-              <a href="/showcase/conference-0/" aria-label="Talking at the &#39;DevOps Talks Conference&#39; in Sydney, Australia 2018"><img loading="lazy" src="/images/showcase/devopstalks.webp" alt="thumbnail-image" class="card-img-top"></a>
-              <div class="card-body">
-                <h4 class="mb-3"><a class="text-dark" href="/showcase/conference-0/" aria-label="Talking at the &#39;DevOps Talks Conference&#39; in Sydney, Australia 2018">DevOps Talks Conference 2018</a></h4>
-                <p class="mb-2">Talking at the &#39;DevOps Talks Conference&#39; in Sydney, Australia 2018</p>
-                <a href="/showcase/conference-0/" class="btn btn-transparent" aria-label="Talking at the &#39;DevOps Talks Conference&#39; in Sydney, Australia 2018">Read More</a>
-              </div>
-            </div>
-          </div>
-          
+
+      
+      
+      <aside class="col-lg-4 mt-5 mt-lg-0">
+        <div class="pl-lg-4"><!-- about me -->
+<div class="widget widget-about">
+  
+  <h5 class="widget-title">Hi, I&#39;m Mike Berry</h5>
+  <p>Engineering Leader | DevOps | Product Managment | Fintech</p>
+  
+  
+  <ul class="list-unstyled list-inline">
+    
+    <li class="list-inline-item mr-3"><a href="https://www.linkedin.com/in/mikeberry5/" aria-label="Social Profile"><i class="fab fa-linkedin"></i></a></li>
+    
+    <li class="list-inline-item mr-3"><a href="https://twitter.com/MikeBerry99" aria-label="Social Profile"><i class="fab fa-twitter"></i></a></li>
+    
+    <li class="list-inline-item mr-3"><a href="https://github.com/MikeBerry99" aria-label="Social Profile"><i class="fab fa-github"></i></a></li>
+    
+  </ul>
+  
+  <a href="/about/" class="btn btn-transparent rounded-0 mb-2">About Me</a>
+</div><!-- recent post -->
+<div class="widget">
+  <h5 class="widget-title">Featured Post</h5>
+  <!-- post-item -->
+  
+  <article class="widget-card mt-4">
+    <div class="d-flex">
+      
+      <img loading="lazy" src="/images/post/flight-operations.jpg" class="rounded-circle" loading="lazy" alt="post-thumb" style="height:70px;width:70px;object-fit:cover;">
+      
+      <div class="ml-3">
+        <h6 class="mb-1"><a class="post-title" href="/posts/post-4/">Safety Culture and DevOps Part 2</a></h6>
+        <div class="post-meta small">
+          <a href="/author/mike-berry">Mike Berry</a> <span class="mx-1">|</span> 30 May 2023
         </div>
       </div>
     </div>
+  </article>
+  
+  <article class="widget-card mt-4">
+    <div class="d-flex">
+      
+      <img loading="lazy" src="https://cdn.mikeberry.dev/images/post/title-B-17-crash.jpg" class="rounded-circle" loading="lazy" alt="post-thumb" style="height:70px;width:70px;object-fit:cover;">
+      
+      <div class="ml-3">
+        <h6 class="mb-1"><a class="post-title" href="/posts/post-3/">Safety Culture and DevOps</a></h6>
+        <div class="post-meta small">
+          <a href="/author/mike-berry">Mike Berry</a> <span class="mx-1">|</span> 02 May 2023
+        </div>
+      </div>
+    </div>
+  </article>
+  
+  <article class="widget-card mt-4">
+    <div class="d-flex">
+      
+      <img loading="lazy" src="https://cdn.mikeberry.dev/images/post/devops-conference.jpg" class="rounded-circle" loading="lazy" alt="post-thumb" style="height:70px;width:70px;object-fit:cover;">
+      
+      <div class="ml-3">
+        <h6 class="mb-1"><a class="post-title" href="/posts/post-2/">Is DevOps Dead?</a></h6>
+        <div class="post-meta small">
+          <a href="/author/mike-berry">Mike Berry</a> <span class="mx-1">|</span> 12 Nov 2022
+        </div>
+      </div>
+    </div>
+  </article>
+  
+</div><!-- tags -->
+<div class="widget">
+  <h5 class="widget-title"><span>Tags</span></h5>
+  <ul class="list-inline widget-list widget-list-inline taxonomies-list">
+    <li class="list-inline-item mr-1 mt-2"><a class="bg-light py-1 px-2 d-inline-block" href="/tags/agile">Agile</a></li>
+    <li class="list-inline-item mr-1 mt-2"><a class="bg-light py-1 px-2 d-inline-block" href="/tags/australia">Australia</a></li>
+    <li class="list-inline-item mr-1 mt-2"><a class="bg-light py-1 px-2 d-inline-block" href="/tags/devops">Devops</a></li>
+    <li class="list-inline-item mr-1 mt-2"><a class="bg-light py-1 px-2 d-inline-block" href="/tags/fintech">Fintech</a></li>
+    <li class="list-inline-item mr-1 mt-2"><a class="bg-light py-1 px-2 d-inline-block" href="/tags/platform-engineering">Platform engineering</a></li>
+    <li class="list-inline-item mr-1 mt-2"><a class="bg-light py-1 px-2 d-inline-block" href="/tags/regtech">Regtech</a></li>
+    <li class="list-inline-item mr-1 mt-2"><a class="bg-light py-1 px-2 d-inline-block" href="/tags/safety-culture">Safety culture</a></li>
+  </ul>
+</div><!-- Social -->
+<div class="widget">
+  <h5 class="widget-title"><span>Social</span></h5>
+  <ul class="list-inline widget-social">
+    <li class="list-inline-item"><a class="text-primary" href="https://www.linkedin.com/in/mikeberry5/"><i class="fab fa-linkedin"></i></a></li>
+    <li class="list-inline-item"><a class="text-primary" href="https://twitter.com/MikeBerry99"><i class="fab fa-twitter"></i></a></li>
+    <li class="list-inline-item"><a class="text-primary" href="https://github.com/MikeBerry99"><i class="fab fa-github"></i></a></li>
+  </ul>
+</div></div>
+      </aside>
+      
+      
+    </div>
   </div>
 </section>
+
+
 
 
   

@@ -6,7 +6,7 @@ date: 2022-05-10T00:00:00Z
 description: "Understanding more about running Agile in teams by applying three lessons from Bruce Lee"
 categories: ["Agile"]
 tags: ["Agile", "DevOps"]
-featured: true
+featured: false
 ---
 
 You have been asked to start a new team that will be developing software. You know the team will start small with 8 or so people, but could easily grow to 50 or more over time. You’ve been asked to establish the “ways of working” for the team. Given that Agile is so prevalent in the software industry you’ll probably choose to base much of the team’s working practices on agile. So, which of all the varieties of agile is the best? Should the team do agile training? How do you know if you’ll need an agile coach? Can you be excellent without an agile centre of excellence?
