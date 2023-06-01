@@ -24,9 +24,9 @@ unsafe= true
 ######################### Default Parameters ###########################
 [params]
 # logo
-logo = "images/mikeberry-logo.webp"
+logo = "https://cdn.mikeberry.dev/images/mikeberry-logo.webp"
 # favicon
-favicon = "images/favicon.png"
+favicon = "https://cdn.mikeberry.dev/images/favicon.png"
 # meta data
 author = "Mike Berry"
 description = "Mike Berry technology leader. A blog about fintech, regtech, software engineering, agile, lean, devops and leading high performance software teams"

@@ -1,6 +1,6 @@
 ---
 title: "Bruce Lee. Lessons in Agile"
-image: "images/post/brucelee-agile.jpg"
+image: "https://cdn.mikeberry.dev/images/post/brucelee-agile.jpg"
 author: "Mike Berry"
 date: 2022-05-10T00:00:00Z
 description: "Understanding more about running Agile in teams by applying three lessons from Bruce Lee"
@@ -18,7 +18,7 @@ Agile has been a popular way to develop software ever since 2001, when it was pu
 
 While Scrum answered questions about how teams should manage their own work it didn’t have answers for how work should best be managed across teams. To answer these questions a new enterprise scale framework was created called [SAFe](https://www.scaledagileframework.com/) (The Scaled Agile Framework).
 
-![the many iterations of safe](/images/post/safes.webp)
+![the many iterations of safe](https://cdn.mikeberry.dev/images/post/safes.webp)
 
 In addition to Scrum and SAFe there are a multitude of other practices and frameworks designed to make teams more productive. Teams can choose from Kanban, various flavours of Lean, Extreme Programming (XP), Scrum@Scale or a combination of them all. Indeed if you have a consultancy working with you on your digital transformation, a new agile “way of working” will be a key transformation ingredient. The use of these agile practices has become particularly tricky within large companies. Enterprises love to standardise everything, creating agile centres of “excellence” and hiring teams of agile coaches to help teams better understand the one true agile path.
 
@@ -31,7 +31,7 @@ Now you may wonder how someone that lived well before people started to stand in
 Although Lee “won” the match, he was disappointed as he felt the fight had taken too long and he had failed to reach his full potential using his Wing Chun techniques. Bruce decided that the traditional martial arts techniques had become stale and had little to do with real world combat. 
 To resolve this he created a new martial art that was designed to be more flowing and adaptive called Jeet Kune Do or the Way of the Intercepting Fist. The basic principles included: simplicity, directness and freedom (the form of no form). Jeet Kune Do required the mastery of both physical techniques and the associated philosophy. Students in the martial art needed to train both physically and mentally.
 
-![Bruce Lee in meditation](/images/post/brucelee-meditate.webp)
+![Bruce Lee in meditation](https://cdn.mikeberry.dev/images/post/brucelee-meditate.webp)
 
 And thus we come to our first of three Agile lessons from Bruce Lee.
 

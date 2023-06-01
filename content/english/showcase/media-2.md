@@ -7,7 +7,7 @@ description: "A discussion on how we strike a balance between the developer and 
 weight: 10
 category: ["Media"]
 
-thumbnail: "images/showcase/cloudify-podcast.webp"
+thumbnail: "https://cdn.mikeberry.dev/images/showcase/cloudify-podcast.webp"
 tools_website_link: "https://cloudify.co/podcast/podcast-30-episode-thirty-devops-is-dead-a-discussion-on-how-we-strike-a-balance-between-the-developer-and-platform-team/"
 
 tools_info:
@@ -18,7 +18,7 @@ tools_info:
   content: "Melbourne, Australia"
 
 tools_images:
-- image: "images/showcase/cloudify-podcast.webp"
+- image: "https://cdn.mikeberry.dev/images/showcase/cloudify-podcast.webp"
 ---
 
 ### Episode Thirty – DevOps is dead?

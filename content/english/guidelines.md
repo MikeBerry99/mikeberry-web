@@ -1,6 +1,6 @@
 ---
 title: "Guidelines"
-description: "this is meta description"
+description: "Guideline for the use of the mikeberry.dev website"
 draft: false
 ---
 
