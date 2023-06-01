@@ -7,7 +7,7 @@ description: "Talk shared at the Host Cloud Community Meetup"
 weight: 30
 category: ["Conferences"]
 
-thumbnail: "images/showcase/host-meetup.webp"
+thumbnail: "https://cdn.mikeberry.dev/images/showcase/host-meetup.webp"
 tools_website_link: "https://www.meetup.com/host-community/events/292088036/"
 
 tools_info:
@@ -17,7 +17,7 @@ tools_info:
   content: "London, United Kingdom"
 
 tools_images:
-- image: "images/showcase/host-meetup.webp"
+- image: "https://cdn.mikeberry.dev/images/showcase/host-meetup.webp"
 ---
 
 ## Cloud Platform Engineering: Strategies & Lessons Learnt

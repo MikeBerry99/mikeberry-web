@@ -1,6 +1,6 @@
 ---
 title: "Safety Culture and DevOps Part 2"
-image: "images/post/flight-operations.jpg"
+image: "https://cdn.mikeberry.dev/images/post/flight-operations.jpg"
 author: "Mike Berry"
 date: 2023-05-30T00:00:00Z
 description: "What is safety culture? How does it apply to DevOps and Software Engineering? What makes High Reliability Organisations successful"
@@ -35,7 +35,7 @@ Any organisation that operates in a complex environment can improve its reliabil
 
 Monitoring what percentage of CPU a server is using does not help you understand performance. Similarly, only measuring if an API responds to requests is not useful if every response is a 500 error and your application is crashing. The metrics you monitor should align to the user experience as much as possible. For web/mobile applications this typically means tracking SLIs based on availability, latency, or throughput.
 
-![Website Down](/images/post/techSupport.webp)
+![Website Down](https://cdn.mikeberry.dev/images/post/techSupport.webp)
 
 **Deviations**. You should be able to discover deviations in your system. What is a deviation? The answer is system dependant, but in a Kubernetes cluster it could be a list of containers that have very high restart counts. Sometimes a deviation is a lack of a metric. Low logins at 3am could be fine but a sudden 50% drop during peak period could point to login system issues.
 
@@ -66,7 +66,7 @@ You may have heard of the HiPPO decision making process before. That is when dec
 
 Deference to expertise also relates to informal communication and learning. During the design of Apple Park (Apple's headquarters in Cupertino) Steve Jobs worked with architect Norman Foster to design many common spaces. The layout building and grounds purposefully encourages informal interaction and collaboration between different teams and departments.
 
-![Website Down](/images/post/apple-park.webp)
+![Website Down](https://cdn.mikeberry.dev/images/post/apple-park.webp)
 
 While we may not have the luxury of designing a new office, we can still find ways to informally share expertise. Many organisations have success embedding resources in teams like an architect or platform engineer. While they still belong to a large group of architects they sit with and join in with their embedded team for their day-to-day work.
 

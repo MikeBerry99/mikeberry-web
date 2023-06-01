@@ -8,17 +8,17 @@ draft: false
 # My Experiences
 my_experiences:
   enable: false
-  title: "My Experiences"
-  description: "Are you Developer and recently started your own business and Already made a  to ensure online presence"
+  title: ""
+  description: ""
   
   experiences_item:
-  - title: "Affinity Design Limited"
-    requisition: "Front End Developer"
-    time_period: "2015 Jan - 2017 March"
+  - title: ""
+    requisition: ""
+    time_period: ""
 
-  - title: "The coders trust"
-    requisition: "Front End Developer"
-    time_period: "2015 Jan - 2017 March"
+  - title: ""
+    requisition: ""
+    time_period: ""
     
 # About info
 about_info:

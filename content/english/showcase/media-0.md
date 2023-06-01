@@ -7,7 +7,7 @@ description: "After 3 years of work all the way from creation of the first empty
 weight: 20
 category: ["Media"]
 
-thumbnail: "images/showcase/anzplus-app.webp"
+thumbnail: "https://cdn.mikeberry.dev/images/showcase/anzplus-app.webp"
 tools_website_link: "https://bluenotes.anz.com/posts/2022/10/anz-news-plus-home-loans-deposits-customers-results22"
 
 tools_info:
@@ -18,7 +18,7 @@ tools_info:
   content: "Melbourne, Australia"
 
 tools_images:
-- image: "images/showcase/anzplus-app.webp"
+- image: "https://cdn.mikeberry.dev/images/showcase/anzplus-app.webp"
 ---
 
 ## ANZ Plus - creating a digital first cloud based banking platform
